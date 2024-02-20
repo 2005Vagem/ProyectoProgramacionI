@@ -17,8 +17,11 @@ public class ProyectoProgramacionI {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner scan=new Scanner(System.in);
+        //prueba
+        int n1;
+        System.out.println("ingrese numero");
+        n1 = scan.nextInt();
+        
     }
-    Scanner scan= new Scanner(System.in);
-    //prueba
-    
 }
