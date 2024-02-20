@@ -19,4 +19,6 @@ public class ProyectoProgramacionI {
         // TODO code application logic here
     }
     Scanner scan= new Scanner(System.in);
+    //prueba
+    
 }
