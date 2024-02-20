@@ -23,5 +23,6 @@ public class ProyectoProgramacionI {
         System.out.println("ingrese numero");
         n1 = scan.nextInt();
         
+        
     }
 }
