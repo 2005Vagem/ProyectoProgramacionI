@@ -4,6 +4,8 @@
  */
 package proyectoprogramacioni;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Valeria Guzman
@@ -16,5 +18,5 @@ public class ProyectoProgramacionI {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+    Scanner scan= new Scanner(System.in);
 }
