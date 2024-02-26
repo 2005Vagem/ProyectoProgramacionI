@@ -6041,6 +6041,32 @@
 							"width": 96,
 							"height": 25,
 							"text": "genera"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGN4fdgBbu7w+g=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 568,
+							"top": 176,
+							"width": 64,
+							"height": 25,
+							"text": "extends"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGN4feUuL4ZD/c=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 776,
+							"top": 176,
+							"width": 64,
+							"height": 25,
+							"text": "extends"
 						}
 					]
 				},
