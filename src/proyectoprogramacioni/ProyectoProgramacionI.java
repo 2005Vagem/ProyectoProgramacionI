@@ -20,6 +20,7 @@ public class ProyectoProgramacionI {
         Scanner scan=new Scanner(System.in);
         //prueba
         int n1;
+        //comentario
         System.out.println("ingrese numero");
         n1 = scan.nextInt();
         
