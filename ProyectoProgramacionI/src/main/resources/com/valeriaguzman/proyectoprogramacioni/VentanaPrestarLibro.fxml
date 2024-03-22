@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriaguzman.proyectoprogramacioni.VentanaRegistroAdminController">
+   <children>
+      <Label layoutX="40.0" layoutY="40.0" prefHeight="18.0" prefWidth="208.0" style="-fx-background-color: D6B7DB;" text="Préstamo de Libros">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="74.0" text="Ingrese título o autor del libro a buscar:" />
+      <TextField fx:id="txtPrestarLibroTitulo" layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="331.0" style="-fx-background-color: A630B8;" />
+      <Label layoutX="40.0" layoutY="124.0" text="Resultados de la búsqueda, seleccione el libro:" />
+      <Label layoutX="40.0" layoutY="192.0" text="Disponibilidad del libro:" />
+      <Label layoutX="42.0" layoutY="275.0" prefHeight="17.0" prefWidth="209.0" text="Verificación de solvencia en préstamos" />
+      <Label layoutX="42.0" layoutY="325.0" prefHeight="17.0" prefWidth="307.0" text="Multa que debe cancelar para poder prestar un libro:" />
+      <Label layoutX="43.0" layoutY="378.0" prefHeight="17.0" prefWidth="149.0" text="Ingrese el monto a cancelar:" />
+      <Button fx:id="btnPrestarLibroRegresar" layoutX="272.0" layoutY="558.0" mnemonicParsing="false" onAction="#btnPrestarLibroRegresar" prefHeight="27.0" prefWidth="113.0" style="-fx-background-color: D6B7DB;" text="Regresar">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="ChoiceBoxPrestarLibroResultados" layoutX="40.0" layoutY="153.0" prefHeight="25.0" prefWidth="331.0" style="-fx-border-color: D6B7DB;" />
+      <Label fx:id="LabelPrestarLibroDisponibilida" layoutX="177.0" layoutY="191.0" prefHeight="17.0" prefWidth="141.0" style="-fx-border-color: D6B7DB;" text="Disponible" />
+      <Button fx:id="btnPrestarLibroRealizarPrestamo" layoutX="107.0" layoutY="233.0" mnemonicParsing="false" onAction="#btnPrestarLibroRealizarPrestamo" prefHeight="27.0" prefWidth="126.0" style="-fx-background-color: D6B7DB;" text="Realizar préstamo ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="LabelPrestarLibroSolvencia" layoutX="43.0" layoutY="298.0" prefHeight="20.0" prefWidth="281.0" style="-fx-border-color: D6B7DB;" text="Insolvente: Boulevard/ Solvente" />
+      <Label fx:id="LabelPrestarLibroMulta" layoutX="43.0" layoutY="349.0" prefHeight="20.0" prefWidth="281.0" style="-fx-border-color: D6B7DB;" text="Q45.00/Q0.00" />
+      <Label fx:id="LabelPrestarLibroSolvInsolv" layoutX="43.0" layoutY="439.0" prefHeight="20.0" prefWidth="134.0" style="-fx-border-color: D6B7DB;" text="Solvente/Insolvente" />
+      <Label layoutX="42.0" layoutY="465.0" prefHeight="17.0" prefWidth="209.0" text="Estado de la transacción:" />
+      <Label fx:id="LabelPrestarLibroEstadoTransac" layoutX="43.0" layoutY="482.0" prefHeight="20.0" prefWidth="259.0" style="-fx-border-color: D6B7DB;" text="Completada/incompleta por multa pendiente" />
+      <TextField fx:id="txtPrestarLibroMontoACancelar" layoutX="41.0" layoutY="402.0" prefHeight="25.0" prefWidth="331.0" style="-fx-background-color: A630B8;" />
+      <Label layoutX="43.0" layoutY="523.0" prefHeight="25.0" prefWidth="343.0" style="-fx-border-color: D6B7DB;" text="Nota: Debe devolver el libro dentro de 14 días o antes." textAlignment="JUSTIFY" textFill="#a613a3">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

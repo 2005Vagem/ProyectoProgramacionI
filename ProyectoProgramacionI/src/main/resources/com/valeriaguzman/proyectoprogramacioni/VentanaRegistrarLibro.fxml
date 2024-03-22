@@ -14,25 +14,25 @@
          </font>
       </Label>
       <Label layoutX="40.0" layoutY="74.0" text="Ingrese ISBN del libro:" />
-      <TextField layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistrarLibroIsbn" layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
       <Label layoutX="40.0" layoutY="124.0" text="Ingrese el Título del libro:" />
-      <TextField layoutX="40.0" layoutY="148.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="39.0" layoutY="377.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="315.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="254.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistrarLibroTitulo" layoutX="40.0" layoutY="148.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistrarLibroCantAReg" layoutX="39.0" layoutY="377.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistrarLibroEditorial" layoutX="40.0" layoutY="315.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistrarLibroAñoPublicacion" layoutX="40.0" layoutY="254.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
       <Label layoutX="40.0" layoutY="237.0" text="Ingrese Año de publicacion del libro: " />
       <Label layoutX="40.0" layoutY="289.0" text="Ingrese la Editorial del libro:" />
       <Label layoutX="43.0" layoutY="353.0" text="Ingrese la cantidad que va a registrar de ese libro:" />
-      <Button layoutX="60.0" layoutY="430.0" mnemonicParsing="false" style="-fx-background-color: D6B7DB;" text="Crear Administrador">
+      <Button fx:id="btnRegistrarLibroReg" layoutX="60.0" layoutY="430.0" mnemonicParsing="false" onAction="#btnRegistrarLibroReg" style="-fx-background-color: D6B7DB;" text="Registrar Libro">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font></Button>
-      <Button layoutX="204.0" layoutY="429.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" style="-fx-background-color: D1BBD5;" text="Regresar">
+      <Button fx:id="btnRegistrarLibroRegresar" layoutX="220.0" layoutY="429.0" mnemonicParsing="false" onAction="#btnRegistrarLibroRegresar" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: D1BBD5;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Button>
       <Label layoutX="40.0" layoutY="183.0" text="Ingrese el Autor del libro:" />
-      <TextField layoutX="40.0" layoutY="200.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistrarLibroAutor" layoutX="40.0" layoutY="200.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
    </children>
 </AnchorPane>

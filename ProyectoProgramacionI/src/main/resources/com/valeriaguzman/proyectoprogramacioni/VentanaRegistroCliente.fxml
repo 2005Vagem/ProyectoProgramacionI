@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="494.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriaguzman.proyectoprogramacioni.VentanaRegistroAdminController">
+<AnchorPane id="AnchorPane" fx:id="txtRegistroClientesDPI" prefHeight="494.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriaguzman.proyectoprogramacioni.VentanaRegistroAdminController">
    <children>
       <Label layoutX="40.0" layoutY="40.0" prefHeight="18.0" prefWidth="208.0" style="-fx-background-color: D6B7DB;" text="REGISTRO DE CLIENTE">
          <font>
@@ -15,22 +15,22 @@
          </font>
       </Label>
       <Label layoutX="40.0" layoutY="74.0" text="Ingrese Nombre:" />
-      <TextField layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroClientesNombre" layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
       <Label layoutX="40.0" layoutY="124.0" text="Ingrese  DPI:" />
       <TextField layoutX="40.0" layoutY="148.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="321.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="259.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="206.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroClientesCorreo" layoutX="40.0" layoutY="321.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroClientesTelefono" layoutX="40.0" layoutY="259.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroClientesDireccion" layoutX="40.0" layoutY="206.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
       <Label layoutX="40.0" layoutY="181.0" text="Ingrese su Dirección :" />
       <Label layoutX="40.0" layoutY="242.0" text="Ingrese número de telefono:" />
       <Label layoutX="40.0" layoutY="296.0" text="Ingrese correo Electronico:" />
       <Label layoutX="40.0" layoutY="354.0" text="Ingrese una contraseña:" />
-      <PasswordField layoutX="41.0" layoutY="378.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-radius: D1BBD5;" />
-      <Button layoutX="67.0" layoutY="437.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="103.0" style="-fx-background-color: D6B7DB;" text="Crear Cliente">
+      <PasswordField fx:id="txtRegistroClientesContraseña" layoutX="41.0" layoutY="378.0" onAction="#txtRegistroClientesContraseña" prefHeight="25.0" prefWidth="307.0" style="-fx-border-color: D1BBD5;" />
+      <Button fx:id="btnRegistroClientesCrearCliente" layoutX="67.0" layoutY="437.0" mnemonicParsing="false" onAction="#btnRegistroClientesCrearCliente" prefHeight="27.0" prefWidth="103.0" style="-fx-background-color: D6B7DB;" text="Crear Cliente">
          <font>
             <Font size="13.0" />
          </font></Button>
-      <Button layoutX="195.0" layoutY="435.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="113.0" style="-fx-background-color: D6B7DB;" text="Regresar">
+      <Button fx:id="btnRegistroClientesRegresar" layoutX="195.0" layoutY="435.0" mnemonicParsing="false" onAction="#btnRegistroClientesRegresar" prefHeight="27.0" prefWidth="113.0" style="-fx-background-color: D6B7DB;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>

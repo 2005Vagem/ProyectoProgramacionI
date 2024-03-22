@@ -12,15 +12,15 @@
             <Font name="Century Gothic Bold" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="39.0" layoutY="70.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Registrar Libros" />
-      <Button layoutX="39.0" layoutY="142.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Eliminar registro de Libros" />
-      <Button layoutX="40.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar información de Clientes" />
-      <Button layoutX="40.0" layoutY="181.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Registrar Clientes" />
-      <Button layoutX="39.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar información de los Libros" />
-      <Button layoutX="41.0" layoutY="250.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Eliminar registro de Clientes" />
+      <Button fx:id="btnMenuAdminRegistrarLib" layoutX="39.0" layoutY="70.0" mnemonicParsing="false" onAction="#btnMenuAdminRegistrarLib" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Registrar Libros" />
+      <Button fx:id="btnMenuAdminEliminarRegLib" layoutX="39.0" layoutY="142.0" mnemonicParsing="false" onAction="#btnMenuAdminEliminarRegLib" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Eliminar registro de Libros" />
+      <Button fx:id="btnMenuAdminModifInfoCliente" layoutX="40.0" layoutY="215.0" mnemonicParsing="false" onAction="#btnMenuAdminModifInfoCliente" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar información de Clientes" />
+      <Button fx:id="btnMenuAdminRegCliente" layoutX="40.0" layoutY="181.0" mnemonicParsing="false" onAction="#btnMenuAdminRegCliente" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Registrar Clientes" />
+      <Button fx:id="btnMenuAdminModInfoLib" layoutX="39.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnMenuAdminModInfoLib" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar información de los Libros" />
+      <Button fx:id="btnMenuAdminEliminarCliente" layoutX="41.0" layoutY="250.0" mnemonicParsing="false" onAction="#btnMenuAdminEliminarCliente" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Eliminar registro de Clientes" />
       <Label layoutX="42.0" layoutY="46.0" text="Seleccione la acción que desea realizar" />
-      <Button layoutX="42.0" layoutY="286.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Consultar historial" />
-      <Button layoutX="42.0" layoutY="326.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
+      <Button fx:id="btnMenuAdminConsultarHistorial" layoutX="42.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnMenuAdminConsultarHistorial" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Consultar historial" />
+      <Button fx:id="btnMenuAdminRegresar" layoutX="42.0" layoutY="326.0" mnemonicParsing="false" onAction="#btnMenuAdminRegresar" prefHeight="28.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>

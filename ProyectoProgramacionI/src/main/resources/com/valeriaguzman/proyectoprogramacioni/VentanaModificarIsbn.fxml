@@ -2,7 +2,6 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -14,19 +13,19 @@
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Label>
-      <TextField layoutX="31.0" layoutY="106.0" prefHeight="25.0" prefWidth="275.0" style="-fx-alignment: D6B7DB;" />
+      <TextField fx:id="txtModificarIsbnTitulo" layoutX="31.0" layoutY="106.0" onAction="#txtModificarIsbnTitulo" prefHeight="25.0" prefWidth="275.0" style="-fx-alignment: D6B7DB;" />
       <Label layoutX="34.0" layoutY="140.0" text="Ingrese nuevo ISBN:">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Label>
-      <PasswordField layoutX="33.0" layoutY="165.0" prefHeight="25.0" prefWidth="275.0" />
       <Label layoutX="31.0" layoutY="41.0" prefHeight="18.0" prefWidth="168.0" style="-fx-background-color: D6B7DB;" text="Modificación del ISBN">
          <font>
             <Font name="Century Gothic Bold" size="14.0" />
          </font>
       </Label>
-      <Button layoutX="72.0" layoutY="206.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: D6B7DB;" text="Cambiar" />
-      <Button layoutX="185.0" layoutY="206.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: D6B7DB;" text="Regresar" />
+      <Button fx:id="btnModificarIsbnCambiar" layoutX="72.0" layoutY="206.0" mnemonicParsing="false" onAction="#btnModificarIsbnCambiar" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: D6B7DB;" text="Cambiar" />
+      <Button fx:id="btnModificarIsbnRegresar" layoutX="185.0" layoutY="206.0" mnemonicParsing="false" onAction="#btnModificarIsbnRegresar" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: D6B7DB;" text="Regresar" />
+      <TextField fx:id="txtModificarIsbnNuevoIsbn" layoutX="31.0" layoutY="162.0" onAction="#txtModificarIsbnNuevoIsbn" prefHeight="25.0" prefWidth="275.0" style="-fx-alignment: D6B7DB;" />
    </children>
 </AnchorPane>

@@ -12,11 +12,11 @@
             <Font name="Century Gothic Bold" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="39.0" layoutY="70.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Prestar Libro" />
-      <Button layoutX="39.0" layoutY="142.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Consultar historial" />
-      <Button layoutX="39.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Devolver Libro" />
+      <Button fx:id="btnMenuClientePrestarLib" layoutX="39.0" layoutY="70.0" mnemonicParsing="false" onAction="#btnMenuClientePrestarLib" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Prestar Libro" />
+      <Button fx:id="btnMenuClienteConsultarHistorial" layoutX="39.0" layoutY="142.0" mnemonicParsing="false" onAction="#btnMenuClienteConsultarHistorial" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Consultar historial" />
+      <Button fx:id="btnMenuClienteDevolverLib" layoutX="39.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnMenuClienteDevolverLib" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Devolver Libro" />
       <Label layoutX="42.0" layoutY="46.0" text="Seleccione la acción que desea realizar" />
-      <Button layoutX="38.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
+      <Button fx:id="btnMenuClienteRegresar" layoutX="38.0" layoutY="178.0" mnemonicParsing="false" onAction="#btnMenuClienteRegresar" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>

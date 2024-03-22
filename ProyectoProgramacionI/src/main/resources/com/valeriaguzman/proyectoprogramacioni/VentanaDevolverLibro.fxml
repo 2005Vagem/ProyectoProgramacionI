@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="401.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriaguzman.proyectoprogramacioni.VentanaRegistroAdminController">
+   <children>
+      <Label layoutX="40.0" layoutY="40.0" prefHeight="18.0" prefWidth="208.0" style="-fx-background-color: D6B7DB;" text="Devolución de Libros">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="74.0" text="Ingrese título o autor del libro a devolver:" />
+      <TextField fx:id="TextDevolverLibAutor" layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="331.0" style="-fx-background-color: A630B8;" />
+      <Label layoutX="40.0" layoutY="124.0" text="Resultados de la búsqueda, seleccione el libro:" />
+      <Label layoutX="42.0" layoutY="199.0" prefHeight="17.0" prefWidth="303.0" text="Multa por entrega tardía:" />
+      <Label layoutX="42.0" layoutY="257.0" prefHeight="17.0" prefWidth="331.0" text="Ingrese el monto a cancelar (Debe ser la cantidad completa)" />
+      <Button fx:id="btnRegresarDevLibros" layoutX="221.0" layoutY="344.0" mnemonicParsing="false" onAction="#btnRegresarDevLibros" prefHeight="27.0" prefWidth="113.0" style="-fx-background-color: D6B7DB;" text="Regresar">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="ChoiceBoxDevolverLib" layoutX="40.0" layoutY="153.0" prefHeight="25.0" prefWidth="331.0" style="-fx-border-color: D6B7DB;" />
+      <Button fx:id="btnDevolverLibro" layoutX="68.0" layoutY="344.0" mnemonicParsing="false" onAction="#btnDevolverLibro" prefHeight="27.0" prefWidth="126.0" style="-fx-background-color: D6B7DB;" text="Devolver Libro ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="LabelDevolverLibMulta" layoutX="42.0" layoutY="224.0" prefHeight="20.0" prefWidth="275.0" style="-fx-border-color: D6B7DB;" text="Q45.00/Q0.00" />
+      <TextField fx:id="textDevolverLibMonto" layoutX="42.0" layoutY="281.0" prefHeight="25.0" prefWidth="331.0" style="-fx-background-color: A630B8;" />
+   </children>
+</AnchorPane>

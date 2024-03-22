@@ -12,17 +12,17 @@
             <Font name="Century Gothic Bold" size="12.0" />
          </font>
       </Label>
-      <Button layoutX="55.0" layoutY="70.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Modificar Nombre" />
-      <Button layoutX="55.0" layoutY="142.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Dirección" />
-      <Button layoutX="55.0" layoutY="107.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar DPI" />
+      <Button fx:id="btnModificarClienteNombre" layoutX="55.0" layoutY="70.0" mnemonicParsing="false" onAction="#btnModificarClienteNombre" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Modificar Nombre" />
+      <Button fx:id="btnModificarClienteDirecc" layoutX="55.0" layoutY="142.0" mnemonicParsing="false" onAction="#btnModificarClienteDirecc" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Dirección" />
+      <Button fx:id="btnModificarClienteDpi" layoutX="55.0" layoutY="107.0" mnemonicParsing="false" onAction="#btnModificarClienteDpi" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar DPI" />
       <Label layoutX="42.0" layoutY="46.0" text="Seleccione la modificacion que desea realizar" />
-      <Button layoutX="55.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
+      <Button fx:id="btnModificarClienteRegresar" layoutX="55.0" layoutY="300.0" mnemonicParsing="false" onAction="#btnModificarClienteRegresar" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="55.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Teléfono" />
-      <Button layoutX="55.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Correo" />
-      <Button layoutX="55.0" layoutY="259.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Contraseña" />
+      <Button fx:id="btnModificarClienteTel" layoutX="55.0" layoutY="182.0" mnemonicParsing="false" onAction="#btnModificarClienteTel" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Teléfono" />
+      <Button fx:id="btnModificarClienteCorreo" layoutX="55.0" layoutY="219.0" mnemonicParsing="false" onAction="#btnModificarClienteCorreo" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Correo" />
+      <Button fx:id="btnModificarClienteContraseña" layoutX="55.0" layoutY="259.0" mnemonicParsing="false" onAction="#btnModificarClienteContraseña" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Contraseña" />
    </children>
 </AnchorPane>

@@ -12,16 +12,16 @@
             <Font name="Kristen ITC" size="20.0" />
          </font>
       </Label>
-      <Button fx:id="RegistrarcomoAdmin" layoutX="58.0" layoutY="83.0" mnemonicParsing="false" onAction="#RegistrarcomoAdmin" prefHeight="37.0" prefWidth="216.0" style="-fx-background-color: BDDAEE;" text="Registrarse como Administrador " textAlignment="RIGHT" textFill="#0d0d0d">
+      <Button fx:id="btnRegistrarcomoAdmin" layoutX="58.0" layoutY="83.0" mnemonicParsing="false" onAction="#btnRegistrarcomoAdmin" prefHeight="37.0" prefWidth="216.0" style="-fx-background-color: BDDAEE;" text="Registrarse como Administrador " textAlignment="RIGHT" textFill="#0d0d0d">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font></Button>
-      <Button fx:id="RegistrarcomoAdmin1" layoutX="58.0" layoutY="133.0" mnemonicParsing="false" onAction="#RegistrarcomoAdmin" prefHeight="37.0" prefWidth="216.0" style="-fx-background-color: BDDAEE;" text="Registrarse como Cliente " textAlignment="RIGHT" textFill="#0d0d0d">
+      <Button fx:id="btnRegistrarcomoCliente" layoutX="58.0" layoutY="133.0" mnemonicParsing="false" onAction="#btnRegistrarcomoCliente" prefHeight="37.0" prefWidth="216.0" style="-fx-background-color: BDDAEE;" text="Registrarse como Cliente " textAlignment="RIGHT" textFill="#0d0d0d">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="RegistrarcomoAdmin2" layoutX="58.0" layoutY="178.0" mnemonicParsing="false" onAction="#RegistrarcomoAdmin" prefHeight="37.0" prefWidth="216.0" style="-fx-background-color: BDDAEE;" text="Iniciar Sesión" textAlignment="RIGHT" textFill="#0d0d0d">
+      <Button fx:id="btnIniciarSesion" layoutX="58.0" layoutY="178.0" mnemonicParsing="false" onAction="#btnIniciarSesion" prefHeight="37.0" prefWidth="216.0" style="-fx-background-color: BDDAEE;" text="Iniciar Sesión" textAlignment="RIGHT" textFill="#0d0d0d">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>

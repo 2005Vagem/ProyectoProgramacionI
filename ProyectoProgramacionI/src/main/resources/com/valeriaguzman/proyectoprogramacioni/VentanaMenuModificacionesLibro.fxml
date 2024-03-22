@@ -12,16 +12,16 @@
             <Font name="Century Gothic Bold" size="12.0" />
          </font>
       </Label>
-      <Button layoutX="55.0" layoutY="70.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Modificar ISBN" />
-      <Button layoutX="55.0" layoutY="142.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Autor" />
-      <Button layoutX="55.0" layoutY="107.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Título" />
+      <Button fx:id="btnMenuModificacionesModIsbn" layoutX="55.0" layoutY="70.0" mnemonicParsing="false" onAction="#btnMenuModificacionesModIsbn" prefHeight="25.0" prefWidth="211.0" style="-fx-border-color: D6B7DB; -fx-background-color: C8B5D6;" text="Modificar ISBN" />
+      <Button fx:id="btnMenuModificacionesModAutor" layoutX="55.0" layoutY="142.0" mnemonicParsing="false" onAction="#btnMenuModificacionesModAutor" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Autor" />
+      <Button fx:id="btnMenuModificacionesModTitulo" layoutX="55.0" layoutY="107.0" mnemonicParsing="false" onAction="#btnMenuModificacionesModTitulo" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Título" />
       <Label layoutX="42.0" layoutY="46.0" text="Seleccione la modificacion que desea realizar" />
-      <Button layoutX="55.0" layoutY="258.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
+      <Button fx:id="btnMenuModificacionesRegresar" layoutX="55.0" layoutY="258.0" mnemonicParsing="false" onAction="#btnMenuModificacionesRegresar" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: D1BBD5;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="55.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Año de publicación" />
-      <Button layoutX="55.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Editorial" />
+      <Button fx:id="btnMenuModificacionesModAñoP" layoutX="55.0" layoutY="182.0" mnemonicParsing="false" onAction="#btnMenuModificacionesModAñoP" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Año de publicación" />
+      <Button fx:id="btnMenuModificacionesModEditorial" layoutX="55.0" layoutY="219.0" mnemonicParsing="false" onAction="#btnMenuModificacionesModEditorial" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: C8B5D6; -fx-border-color: D6B7DB;" text="Modificar Editorial" />
    </children>
 </AnchorPane>

@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="382.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.valeriaguzman.proyectoprogramacioni.VentanaRegistroAdminController">
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriaguzman.proyectoprogramacioni.VentanaRegistroAdminController">
    <children>
       <Label layoutX="40.0" layoutY="40.0" prefHeight="18.0" prefWidth="208.0" style="-fx-background-color: D6B7DB;" text="REGISTRO DE ADMINISTRADOR">
          <font>
@@ -16,21 +15,21 @@
          </font>
       </Label>
       <Label layoutX="40.0" layoutY="74.0" text="Ingrese Nombre:" />
-      <TextField layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroAdminNombre" layoutX="40.0" layoutY="91.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
       <Label layoutX="40.0" layoutY="124.0" text="Ingrese  DPI:" />
-      <TextField layoutX="40.0" layoutY="148.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="321.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="259.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
-      <TextField layoutX="40.0" layoutY="206.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroAdminDpi" layoutX="40.0" layoutY="148.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroAdminCorreo" layoutX="40.0" layoutY="321.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroAdminTel" layoutX="40.0" layoutY="259.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
+      <TextField fx:id="txtRegistroAdminDirecc" layoutX="40.0" layoutY="206.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: A630B8;" />
       <Label layoutX="40.0" layoutY="181.0" text="Ingrese su Dirección :" />
       <Label layoutX="40.0" layoutY="242.0" text="Ingrese número de telefono:" />
       <Label layoutX="40.0" layoutY="296.0" text="Ingrese correo Electronico:" />
       <Label layoutX="40.0" layoutY="354.0" text="Ingrese una contraseña:" />
       <Label layoutX="41.0" layoutY="413.0" text="Ingrese contraseña proporcionada para ser administrador:" />
-      <PasswordField layoutX="41.0" layoutY="378.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-radius: D1BBD5;" />
-      <PasswordField layoutX="41.0" layoutY="437.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-radius: D1BBD5;" />
-      <Button layoutX="64.0" layoutY="495.0" mnemonicParsing="false" style="-fx-background-color: D6B7DB;" text="Crear Administrador" />
-      <Button layoutX="209.0" layoutY="495.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" style="-fx-background-color: D1BBD5;" text="Regresar">
+      <PasswordField fx:id="txtRegistroAdminContraseña" layoutX="41.0" layoutY="378.0" onAction="#txtRegistroAdminContraseña" prefHeight="25.0" prefWidth="307.0" style="-fx-border-color: D1BBD5;" />
+      <PasswordField fx:id="txtRegistroAdminContraseñaAdmin" layoutX="41.0" layoutY="437.0" onAction="#txtRegistroAdminContraseña" prefHeight="25.0" prefWidth="307.0" style="-fx-border-color: D1BBD5;" />
+      <Button fx:id="btnRegistroAdminCrearAdmin" layoutX="64.0" layoutY="495.0" mnemonicParsing="false" onAction="#btnRegistroAdminCrearAdmin" style="-fx-background-color: D6B7DB;" text="Crear Administrador" />
+      <Button fx:id="btnRegistroAdminRegresar" layoutX="209.0" layoutY="495.0" mnemonicParsing="false" onAction="#btnRegistroAdminRegresar" prefHeight="25.0" prefWidth="113.0" style="-fx-background-color: D1BBD5;" text="Regresar">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
